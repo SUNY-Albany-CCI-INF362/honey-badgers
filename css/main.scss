@@ -27,13 +27,13 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-	height:100%;
+
 	
 }
 body{
 margin:0em;
 padding:0em;
-height:100%;}
+}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -357,12 +357,19 @@ textarea {
    footers
 ==============================*/
  footer{
-	font-size:200px;
-	height: 150px;
-	width:100%;
-	position:absolute;
-	bottom:0px;
+ position:absolute;
+ width:100%;
+bottom:0;
 	} 
+	.button{
+	width:50%;
+	float:left;
+	button{
+	height:50px;
+	width:100%;
+	}
+	 
+	}
 .save{
 	background-color:yellow;
 	float:left;

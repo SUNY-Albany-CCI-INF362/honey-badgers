@@ -27,11 +27,13 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+	height:100%;
+	
 }
 body{
 margin:0em;
 padding:0em;
-}
+height:100%;}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -340,4 +342,34 @@ textarea {
    border-left:1px solid black;
    }
    }
+ /*  ============================================    
+ 
+ main-content
+ 
+ =============================================*/
+ 
+ 
    
+   .main-content{
+   
+   }
+ /*===========================================================
+   footers
+==============================*/
+ footer{
+	font-size:200px;
+	height: 150px;
+	width:100%;
+	position:absolute;
+	bottom:0px;
+	} 
+.save{
+	background-color:yellow;
+	float:left;
+	width:50%;
+	}
+.help{
+	background-color:pink;
+	float:left;
+	width:50%;
+	}

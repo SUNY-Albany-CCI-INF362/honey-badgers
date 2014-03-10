@@ -7,6 +7,34 @@
 /* ==========================================================================
   COLOR THEME
   ========================================================================== */
+footer {
+  height: 3em;
+  width: 100%;
+  background-color: #666666;
+  background-attachment: scroll;
+  position: fixed;
+  bottom: 0;
+}
+
+footer div {
+  width: 50%;
+  display: block;
+  position: relative;
+  float: left;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+}
+
+footer .left h2 {
+  border-right: 1px solid white;
+}
+
+footer h2 {
+  margin: 0;
+  height: 100%;
+}
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -258,7 +286,8 @@ textarea {
 
   @page {
     margin: 0.5cm;
-  }
+}
+
   p,
   h2,
   h3 {

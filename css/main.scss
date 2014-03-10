@@ -9,7 +9,7 @@
  /* ==========================================================================
    COLOR THEME
    ========================================================================== */
- 
+ @import 'Navigation';
  
  
 /* ==========================================================================
@@ -312,59 +312,4 @@ textarea {
         page-break-after: avoid;
     }
 }
-/* ==========================================================================
- Header
-   ========================================================================== */
-   header{
-   border-bottom:solid black 1px;
-   height:4em;
-   .header-icon-container{
-   width:3em;
-   float:left;
-   border-right:1px solid black;
-   }
-   h1{
-	width:2.5em;
-   margin:0em;
-   font-size: 50px;
-   margin-left:1%;
-   float:left;
-   text-align:center
-   }
-   .navigation-button{
-   float:right;
-   display:block;
-   width:4em;
-   height:100%;
-   background-color:white;
-   border-left:1px solid black;
-   }
-   }
-   /* ==========================================================================
- Navigation
-   ========================================================================== */
-   .nav-container{
-   display:none;
-   background-color:grey;
-   position:absolute;
-   right:0;
-   width:90%;
-   height:90%;
-   opacity:.99;
-   text-align:center;
-   li{
-   border-bottom:solid 1px black;
-   font-size:1.5em;
-   }
-   .navigation-button2{
-   position:absolute;
-   display:block;
-	left:0;
-	bottom:0;
-   border:solid 1px black;
-   }
-   ul{
-   padding:0px;
-   list-style:none;
-   }
-   }
+

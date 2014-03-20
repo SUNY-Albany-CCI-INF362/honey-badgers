@@ -1,0 +1,69 @@
+footer {
+  height: 3em;
+  width: 100%;
+  background: #353535;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #353535 0%, #010101 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #353535), color-stop(100%, #010101));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #353535 0%, #010101 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #353535 0%, #010101 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #353535 0%, #010101 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #353535 0%, #010101 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#353535', endColorstr='#010101',GradientType=0 );
+  /* IE6-9 */
+  background-attachment: scroll;
+  position: fixed;
+  bottom: 0;
+}
+
+footer div {
+  width: 50%;
+  display: block;
+  position: relative;
+  float: left;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+}
+
+footer .left {
+  outline: white solid thin;
+}
+
+footer .right {
+  outline: white solid thin;
+}
+
+footer h2 {
+  color: white;
+  height: 125%;
+  margin-top: .28em;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  text-color: white;
+}
+
+footer a:visited {
+  color: white;
+}
+
+footer div:hover {
+  height: 200px;
+  background: -webkit-linear-gradient(#57808b, #666666);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#57808b, #666666);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#57808b, #666666);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#57808b, #666666);
+  /* Standard syntax (must be last) */
+}

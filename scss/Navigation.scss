@@ -1,0 +1,65 @@
+/* ==========================================================================
+Variables.
+   ========================================================================== */
+   $primary-color: #57808B;
+   
+
+   /* ==========================================================================
+ Header
+   ========================================================================== */
+   header{
+   height:4em;
+    background-color:$primary-color;
+	color:white;
+	   .header-icon-container{
+	 
+	   float:left;
+	   }
+	   h1{
+		width:2.5em;
+	   margin:0em;
+	   font-size: 50px;
+	   margin-left:1%;
+	   float:left;
+	   text-align:center
+	   }
+	   .navigation-button{
+	   float:right;
+	   display:block;
+	   width:4em;
+	   height:100%;
+	   background-color:white;
+	   }
+   }
+   /* ==========================================================================
+   This is the Navigation Style sheet.
+   ========================================================================== */
+      .nav-container{
+   display:none;
+   background-color:#90B4B3;
+   position:absolute;
+   right:0;
+   width:90%;
+   height:90%;
+   opacity:.89;
+   text-align:center;
+	   li{
+	   border-bottom:solid 1px white;
+	   font-size:1.2em;
+	   }
+	   .navigation-button2{
+	   position:absolute;
+	   display:block;
+		left:0;
+		bottom:0;
+	   border:solid 1px black;
+	   }
+	   ul{
+	   padding:0px;
+	   list-style:none;
+	   }
+	   a{
+	   color:white;
+	   }
+   }
+

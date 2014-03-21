@@ -9,11 +9,10 @@
  /* ==========================================================================
    COLOR THEME
    ========================================================================== */
-<<<<<<< HEAD:scss/main.scss
+
  @import 'Navigation';
-=======
- @import 'footer';
->>>>>>> footer:css/main.scss
+
+ 
  
  
 /* ==========================================================================
@@ -45,7 +44,7 @@ padding:0em;
 
 ::-moz-selection {
     background: #b3d4fc;
-    text-shadow: none;
+    text-shadow: none; 
 }
 
 ::selection {
@@ -316,4 +315,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-

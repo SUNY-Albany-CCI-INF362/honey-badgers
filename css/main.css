@@ -7,90 +7,23 @@
 /* ==========================================================================
   COLOR THEME
   ========================================================================== */
-footer {
-  height: 3em;
-  width: 100%;
-  background: #353535;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #353535 0%, #010101 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #353535), color-stop(100%, #010101));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #353535 0%, #010101 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #353535 0%, #010101 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #353535 0%, #010101 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #353535 0%, #010101 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#353535', endColorstr='#010101',GradientType=0 );
-  /* IE6-9 */
-  background-attachment: scroll;
-  position: fixed;
-  bottom: 0;
-}
-
-footer div {
-  width: 50%;
-  display: block;
-  position: relative;
-  float: left;
-  text-align: center;
-  height: 100%;
-  margin: 0;
-}
-
-footer .left {
-  outline: white solid thin;
-}
-
-footer .right {
-  outline: white solid thin;
-}
-
-footer h2 {
-  color: white;
-  height: 125%;
-  margin-top: .28em;
-}
-
-footer a {
-  display: block;
-  text-decoration: none;
-  text-color: white;
-}
-
-footer a:visited {
-  color: white;
-}
-
-footer div:hover {
-  height: 200px;
-  background: -webkit-linear-gradient(#57808b, #666666);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#57808b, #666666);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#57808b, #666666);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#57808b, #666666);
-  /* Standard syntax (must be last) */
-}
-
 /* ==========================================================================
 Variables.
    ========================================================================== */
   /* ==========================================================================
 Header
   ========================================================================== */
+/* line 10, ../scss/Navigation.scss */
 header {
   height: 4em;
   background-color: #57808b;
   color: white;
 }
+/* line 14, ../scss/Navigation.scss */
 header .header-icon-container {
   float: left;
 }
+/* line 18, ../scss/Navigation.scss */
 header h1 {
   width: 2.5em;
   margin: 0em;
@@ -99,6 +32,7 @@ header h1 {
   float: left;
   text-align: center;
 }
+/* line 26, ../scss/Navigation.scss */
 header .navigation-button {
   float: right;
   display: block;
@@ -110,6 +44,7 @@ header .navigation-button {
 /* ==========================================================================
 This is the Navigation Style sheet.
 ========================================================================== */
+/* line 37, ../scss/Navigation.scss */
 .nav-container {
   display: none;
   background-color: #90B4B3;
@@ -120,10 +55,12 @@ This is the Navigation Style sheet.
   opacity: .89;
   text-align: center;
 }
+/* line 46, ../scss/Navigation.scss */
 .nav-container li {
   border-bottom: solid 1px white;
   font-size: 1.2em;
 }
+/* line 50, ../scss/Navigation.scss */
 .nav-container .navigation-button2 {
   position: absolute;
   display: block;
@@ -131,10 +68,12 @@ This is the Navigation Style sheet.
   bottom: 0;
   border: solid 1px black;
 }
+/* line 57, ../scss/Navigation.scss */
 .nav-container ul {
   padding: 0px;
   list-style: none;
 }
+/* line 61, ../scss/Navigation.scss */
 .nav-container a {
   color: white;
 }
@@ -142,6 +81,7 @@ This is the Navigation Style sheet.
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+/* line 22, ../scss/main.scss */
 html,
 button,
 input,
@@ -150,11 +90,13 @@ textarea {
   color: #222;
 }
 
+/* line 30, ../scss/main.scss */
 html {
   font-size: 1em;
   line-height: 1.4;
 }
 
+/* line 34, ../scss/main.scss */
 body {
   margin: 0em;
   padding: 0em;
@@ -165,11 +107,13 @@ body {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
+/* line 45, ../scss/main.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
+/* line 50, ../scss/main.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -178,6 +122,7 @@ body {
 /*
  * A better looking default horizontal rule
  */
+/* line 59, ../scss/main.scss */
 hr {
   display: block;
   height: 1px;
@@ -191,6 +136,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
+/* line 73, ../scss/main.scss */
 audio,
 canvas,
 img,
@@ -201,6 +147,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
+/* line 84, ../scss/main.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -210,6 +157,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
+/* line 94, ../scss/main.scss */
 textarea {
   resize: vertical;
 }
@@ -217,6 +165,7 @@ textarea {
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
+/* line 102, ../scss/main.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -233,6 +182,7 @@ textarea {
 /*
  * Image replacement
  */
+/* line 137, ../scss/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -241,6 +191,7 @@ textarea {
   *text-indent: -9999px;
 }
 
+/* line 145, ../scss/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -251,6 +202,7 @@ textarea {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
+/* line 156, ../scss/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -259,6 +211,7 @@ textarea {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
+/* line 165, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -274,6 +227,7 @@ textarea {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
+/* line 181, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -287,6 +241,7 @@ textarea {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
+/* line 195, ../scss/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -302,6 +257,7 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+/* line 211, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -310,6 +266,7 @@ textarea {
   /* 2 */
 }
 
+/* line 217, ../scss/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -318,6 +275,7 @@ textarea {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
+/* line 226, ../scss/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -338,6 +296,7 @@ textarea {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
+  /* line 253, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -346,15 +305,18 @@ textarea {
     text-shadow: none !important;
   }
 
+  /* line 260, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
+  /* line 265, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
+  /* line 269, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -362,36 +324,41 @@ textarea {
   /*
    * Don't show links for images, or javascript/internal links
    */
+  /* line 277, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
+  /* line 283, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
+  /* line 289, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
+  /* line 293, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
+  /* line 298, ../scss/main.scss */
   img {
     max-width: 100% !important;
   }
 
   @page {
     margin: 0.5cm;
-}
-
+  }
+  /* line 306, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -399,6 +366,7 @@ textarea {
     widows: 3;
   }
 
+  /* line 313, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;

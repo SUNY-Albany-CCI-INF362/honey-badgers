@@ -1,0 +1,41 @@
+/* ==========================================================================
+		Stages Template
+   ========================================================================== */
+     $primary-color:#57808B;
+  $secondary-color:#C7303D;
+  $background-color:#666666;
+
+   .warning-stages{
+ color:$secondary-color;
+   }
+   .main-header-stages{
+   margin-bottom:0px;
+  }
+  .stages-emphasis-right-assurance{
+  border-bottom:#43ac6a solid 1px;
+  }
+  .stages-emphasis-warning-assurance{
+border-style: solid;
+border-width: 1px;
+border-color: #BE5858;
+margin-bottom: 1.25rem;
+padding: .5rem;
+background: #FFB6B6;  
+font-size:1.2em;
+
+  }
+.accordian-stages{
+margin:0px;
+}
+a {
+h2{
+font-size:1.3em;
+margin:0px;
+}
+}
+.stages-navigation{
+margin-top:20%;
+margin-left:auto;
+margin-right:auto;
+
+}

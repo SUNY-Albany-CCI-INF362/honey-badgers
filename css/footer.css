@@ -29,7 +29,7 @@ footer div {
   float: left;
   text-align: center;
   height: 100%;
-  margin: 0;
+  margin: 0%;
 }
 
 footer .left {
@@ -42,8 +42,9 @@ footer .right {
 
 footer h2 {
   color: white;
+  font-size: 50%;
   height: 125%;
-  margin-top: .28em;
+  margin-bottom: 2em;
 }
 
 footer a {

@@ -7,6 +7,69 @@
 /* ==========================================================================
   COLOR THEME
   ========================================================================== */
+/* ==========================================================================
+Variables.
+   ========================================================================== */
+  /* ==========================================================================
+Header
+  ========================================================================== */
+header {
+  height: 4em;
+  background-color: #57808b;
+  color: white;
+}
+header .header-icon-container {
+  float: left;
+}
+header h1 {
+  width: 2.5em;
+  margin: 0em;
+  font-size: 50px;
+  margin-left: 1%;
+  float: left;
+  text-align: center;
+}
+header .navigation-button {
+  float: right;
+  display: block;
+  width: 4em;
+  height: 100%;
+  background-color: white;
+}
+
+/* ==========================================================================
+This is the Navigation Style sheet.
+========================================================================== */
+.nav-container {
+  display: none;
+  background-color: #90B4B3;
+  position: absolute;
+  right: 0;
+  width: 90%;
+  height: 90%;
+  opacity: .89;
+  text-align: center;
+  z-index: 2;
+}
+.nav-container li {
+  border-bottom: solid 1px white;
+  font-size: 1.2em;
+}
+.nav-container .navigation-button2 {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  border: solid 1px black;
+}
+.nav-container ul {
+  padding: 0px;
+  list-style: none;
+}
+.nav-container a {
+  color: white;
+}
+
 footer {
   height: 3em;
   width: 100%;
@@ -77,66 +140,27 @@ footer div:hover {
   /* Standard syntax (must be last) */
 }
 
-/* ==========================================================================
-Variables.
-   ========================================================================== */
-  /* ==========================================================================
-Header
-  ========================================================================== */
-header {
-  height: 4em;
-  background-color: #57808b;
-  color: white;
-}
-header .header-icon-container {
-  float: left;
-}
-header h1 {
-  width: 2.5em;
-  margin: 0em;
-  font-size: 50px;
-  margin-left: 1%;
-  float: left;
-  text-align: center;
-}
-header .navigation-button {
-  float: right;
-  display: block;
-  width: 4em;
-  height: 100%;
-  background-color: white;
+img {
+  height: 90%;
+  width: 90%;
 }
 
-/* ==========================================================================
-This is the Navigation Style sheet.
-========================================================================== */
-.nav-container {
-  display: none;
-  background-color: #90B4B3;
-  position: absolute;
-  right: 0;
-  width: 90%;
-  height: 90%;
-  opacity: .89;
-  text-align: center;
+h2 {
+  margin: 2%;
+  line-height: 1.2em;
 }
-.nav-container li {
-  border-bottom: solid 1px white;
-  font-size: 1.2em;
+
+img {
+  z-index: 1;
 }
-.nav-container .navigation-button2 {
-  position: absolute;
-  display: block;
-  left: 0;
-  bottom: 0;
-  border: solid 1px black;
+
+p {
+  text-indent: 3em;
 }
-.nav-container ul {
-  padding: 0px;
-  list-style: none;
-}
-.nav-container a {
-  color: white;
+
+.content {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 /* ==========================================================================

@@ -1,0 +1,22 @@
+img {
+  height: 90%;
+  width: 90%;
+}
+
+h2 {
+  margin: 2%;
+  line-height: 1.2em;
+}
+
+img {
+  z-index: 1;
+}
+
+p {
+  text-indent: 3em;
+}
+
+.content {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}

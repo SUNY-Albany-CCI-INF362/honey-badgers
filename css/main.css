@@ -140,6 +140,10 @@ footer div:hover {
   /* Standard syntax (must be last) */
 }
 
+body {
+  font-family: "Times New Roman";
+}
+
 img {
   height: 90%;
   width: 90%;
@@ -161,6 +165,21 @@ p {
 .content {
   margin-left: 2.5%;
   margin-right: 2.5%;
+}
+
+.img1s5 {
+  height: 50%;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.img2s5 {
+  float: right;
+  margin: 5%;
+}
+
+h3 {
+  text-align: center;
 }
 
 /* ==========================================================================

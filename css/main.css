@@ -7,75 +7,14 @@
 /* ==========================================================================
   COLOR THEME
   ========================================================================== */
-/* ==========================================================================
-Variables.
-   ========================================================================== */
-  /* ==========================================================================
-Header
-  ========================================================================== */
-/* line 10, ../scss/Navigation.scss */
-header {
-  height: 4em;
-  background-color: #57808b;
-  color: white;
-}
-/* line 14, ../scss/Navigation.scss */
-header .header-icon-container {
-  float: left;
-}
-/* line 18, ../scss/Navigation.scss */
-header h1 {
-  width: 2.5em;
-  margin: 0em;
-  font-size: 50px;
-  margin-left: 1%;
-  float: left;
-  text-align: center;
-}
-/* line 26, ../scss/Navigation.scss */
-header .navigation-button {
-  float: right;
-  display: block;
-  width: 4em;
+/* line 1, ../scss/Navigation.scss */
+body {
   height: 100%;
-  background-color: white;
 }
 
-/* ==========================================================================
-This is the Navigation Style sheet.
-========================================================================== */
-/* line 37, ../scss/Navigation.scss */
-.nav-container {
-  display: none;
-  background-color: #90B4B3;
-  position: absolute;
-  right: 0;
-  width: 90%;
-  height: 90%;
-  opacity: .89;
-  text-align: center;
-}
-/* line 46, ../scss/Navigation.scss */
-.nav-container li {
-  border-bottom: solid 1px white;
-  font-size: 1.2em;
-}
-/* line 50, ../scss/Navigation.scss */
-.nav-container .navigation-button2 {
-  position: absolute;
-  display: block;
-  left: 0;
-  bottom: 0;
-  border: solid 1px black;
-}
-/* line 57, ../scss/Navigation.scss */
-.nav-container ul {
-  padding: 0px;
-  list-style: none;
-}
-/* line 61, ../scss/Navigation.scss */
-.nav-container a {
-  color: white;
+/* line 4, ../scss/Navigation.scss */
+.body-of-content {
+  min-height: 500px;
 }
 
 /* ==========================================================================

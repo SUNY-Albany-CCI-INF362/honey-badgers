@@ -60,7 +60,7 @@ body {
 
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-  background: white;
+ background:#E3F3F5;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -1482,11 +1482,13 @@ select {
 }
 /* line 32, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion dd.active > a {
-  background: #e8e8e8;
+  background: #C0C0C0;
+ 
+  
 }
 /* line 33, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion dd > a {
-  background: #efefef;
+  background:#90B4B3 ;
   color: #222222;
   padding: 1rem;
   display: block;
@@ -1495,7 +1497,7 @@ select {
 }
 /* line 40, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion dd > a:hover {
-  background: #e3e3e3;
+  background:#57808B ;
 }
 /* line 43, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .content {
@@ -1510,7 +1512,7 @@ select {
 
 /* line 106, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box {
-  border-style: solid;
+  border-style:solid ;
   border-width: 1px;
   display: block;
   font-weight: normal;
@@ -9394,4 +9396,51 @@ th.hide-for-touch {
 /* line 334, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
 .touch th.show-for-touch {
   display: table-cell !important;
+}
+
+/* ==========================================================================
+		Stages Template
+   ========================================================================== */
+/* line 8, ../scss/Stages.scss */
+.warning-stages {
+  color: #c7303d;
+}
+
+/* line 11, ../scss/Stages.scss */
+.main-header-stages {
+  margin-bottom: 0px;
+}
+
+/* line 14, ../scss/Stages.scss */
+.stages-emphasis-right-assurance {
+  border-bottom: #43ac6a solid 1px;
+}
+
+/* line 17, ../scss/Stages.scss */
+.stages-emphasis-warning-assurance {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #BE5858;
+  margin-bottom: 1.25rem;
+  padding: .5rem;
+  background: #FFB6B6;
+  font-size: 1.2em;
+}
+
+/* line 27, ../scss/Stages.scss */
+.accordian-stages {
+  margin: 0px;
+}
+
+/* line 31, ../scss/Stages.scss */
+a h2 {
+  font-size: 1.3em;
+  margin: 0px;
+}
+
+/* line 36, ../scss/Stages.scss */
+.stages-navigation {
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }

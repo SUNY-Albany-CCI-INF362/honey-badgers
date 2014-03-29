@@ -1,33 +1,9 @@
-/* ==========================================================================
-Variables.
-   ========================================================================== */
-  /* ==========================================================================
-Header
-  ========================================================================== */
-header {
-  height: 4em;
-  background-color: #57808b;
-  color: white;
-}
-header .header-icon-container {
-  float: left;
-}
-header h1 {
-  width: 2.5em;
-  margin: 0em;
-  font-size: 50px;
-  margin-left: 1%;
-  float: left;
-  text-align: center;
-}
-header .navigation-button {
-  float: right;
-  display: block;
-  width: 4em;
+/* line 1, ../scss/Navigation.scss */
+body {
   height: 100%;
-  background-color: white;
 }
 
+<<<<<<< HEAD
 /* ==========================================================================
 This is the Navigation Style sheet.
 ========================================================================== */
@@ -59,4 +35,9 @@ This is the Navigation Style sheet.
 }
 .nav-container a {
   color: white;
+=======
+/* line 4, ../scss/Navigation.scss */
+.body-of-content {
+  min-height: 500px;
+>>>>>>> 3ea3acc4076e8cb16a1c401b194b5698aa4c0929
 }

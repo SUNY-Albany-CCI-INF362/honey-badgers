@@ -11,9 +11,15 @@
    ========================================================================== */
 
  @import 'Navigation';
+<<<<<<< HEAD
  @import 'footer';
  @import 'body';
 
+=======
+
+ 
+ 
+>>>>>>> 3ea3acc4076e8cb16a1c401b194b5698aa4c0929
  
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -44,7 +50,7 @@ padding:0em;
 
 ::-moz-selection {
     background: #b3d4fc;
-    text-shadow: none;
+    text-shadow: none; 
 }
 
 ::selection {
@@ -315,4 +321,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-

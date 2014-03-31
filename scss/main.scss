@@ -18,6 +18,59 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+.button-group{
+
+    padding-left:0;
+
+}
+
+#share {
+    z-index:0;
+    background:transparent;
+    position:fixed;
+    bottom:2em;
+    width:2em;
+    line-height:1em;
+    display:none;
+    margin-left: 3em;
+    list-style-type: none;
+}
+
+
+
+.show {
+    
+    background-color:white;
+    list-style-type: none;
+
+}
+
+.show img {
+
+    height:2em;
+    width:2em;
+
+}
+
+
+#footer {
+
+    position: fixed;
+
+    bottom: 0;
+
+    width: 100%;
+
+    height: 3em; /* choose any height */
+
+}
+
+#footer .button-group li{
+    
+    width:50%;
+    background-color:#C7C7C7;
+
+}
 
 html,
 button,
@@ -32,6 +85,7 @@ html {
     line-height: 1.4;
 }
 body{
+background-color:#E3F3F5; 
 margin:0em;
 padding:0em;
 }

@@ -8,22 +8,32 @@
   COLOR THEME
   ========================================================================== */
 /* line 1, ../scss/Navigation.scss */
-body {
+html {
   height: 100%;
 }
 
 /* line 4, ../scss/Navigation.scss */
-.body-of-content {
-  min-height: 500px;
+body {
+  height: 100%;
 }
 
 /* line 7, ../scss/Navigation.scss */
+.body-of-content {
+  height: 100%;
+}
+
+/* line 10, ../scss/Navigation.scss */
+.off-canvas-wrap, .inner-wrap {
+  height: 100%;
+}
+
+/* line 13, ../scss/Navigation.scss */
 .nav-expansion-content {
   margin-left: 2em;
   display: none;
 }
 
-/* line 11, ../scss/Navigation.scss */
+/* line 17, ../scss/Navigation.scss */
 .nav-expansion-title {
   padding: 0.66667rem;
   color: rgba(255, 255, 255, 0.7);
@@ -31,7 +41,7 @@ body {
   transition: background 300ms ease;
 }
 
-/* line 19, ../scss/Navigation.scss */
+/* line 25, ../scss/Navigation.scss */
 .pre-expansion:after {
   content: "+";
   float: right;
@@ -39,7 +49,7 @@ body {
   margin-top: -.3em;
 }
 
-/* line 26, ../scss/Navigation.scss */
+/* line 32, ../scss/Navigation.scss */
 .post-expansion:after {
   content: "-";
   float: right;
@@ -47,7 +57,12 @@ body {
   margin-top: -.3em;
 }
 
-/* line 35, ../scss/Navigation.scss */
+/* line 39, ../scss/Navigation.scss */
+.page {
+  height: 100%;
+}
+
+/* line 43, ../scss/Navigation.scss */
 .nav-expansion-title:hover {
   cursor: pointer;
   background: #242424;

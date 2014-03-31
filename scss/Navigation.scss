@@ -4,3 +4,34 @@ height:100%;
 .body-of-content{
 min-height:500px;
 }
+.nav-expansion-content{
+margin-left:2em;
+display: none;
+}
+.nav-expansion-title{
+padding: 0.66667rem;
+color: rgba(255, 255, 255, 0.7);
+border-bottom: 1px solid #262626;
+transition: background 300ms ease;}
+
+.pre-expansion{}
+
+.pre-expansion:after{
+content: "+";
+float: right;
+font-size: 2em;
+margin-top: -.3em;
+
+}
+.post-expansion:after{
+content: "-";
+float: right;
+font-size: 2em;
+margin-top: -.3em;
+
+}
+
+
+.nav-expansion-title:hover{
+  cursor:pointer;
+  background: #242424;}

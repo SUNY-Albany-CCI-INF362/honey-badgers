@@ -17,6 +17,42 @@ body {
   min-height: 500px;
 }
 
+/* line 7, ../scss/Navigation.scss */
+.nav-expansion-content {
+  margin-left: 2em;
+  display: none;
+}
+
+/* line 11, ../scss/Navigation.scss */
+.nav-expansion-title {
+  padding: 0.66667rem;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid #262626;
+  transition: background 300ms ease;
+}
+
+/* line 19, ../scss/Navigation.scss */
+.pre-expansion:after {
+  content: "+";
+  float: right;
+  font-size: 2em;
+  margin-top: -.3em;
+}
+
+/* line 26, ../scss/Navigation.scss */
+.post-expansion:after {
+  content: "-";
+  float: right;
+  font-size: 2em;
+  margin-top: -.3em;
+}
+
+/* line 35, ../scss/Navigation.scss */
+.nav-expansion-title:hover {
+  cursor: pointer;
+  background: #242424;
+}
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */

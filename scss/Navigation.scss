@@ -1,8 +1,14 @@
+html{
+height:100%;
+}
 body{
 height:100%;
 }
 .body-of-content{
-min-height:500px;
+height:100%;
+}
+.off-canvas-wrap,.inner-wrap{
+    height:100%;   
 }
 .nav-expansion-content{
 margin-left:2em;
@@ -30,7 +36,9 @@ font-size: 2em;
 margin-top: -.3em;
 
 }
-
+.page{
+height:100%;
+}
 
 .nav-expansion-title:hover{
   cursor:pointer;

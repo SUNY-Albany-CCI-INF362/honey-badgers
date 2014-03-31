@@ -1,0 +1,106 @@
+.accordion .content {
+border-style: solid;
+border-width: 1px;
+border-color: #b6edff;
+margin-bottom: 1.25rem;
+padding: 1.25rem;
+background: #ecfaff;}
+
+a {
+   color: #008cba;
+   text-decoration: none;
+   line-height: inherit;
+ }
+
+ a:hover, a:focus {
+   color: #0078a0;
+ }
+ .clear {
+    clear:both;
+    line-height:0;
+    font-size:0;
+}
+
+.timelineContainer {
+    border-left:2px solid #666666;
+    
+}
+
+div.timelineToggle {
+    float:right;
+    margin-right:0;
+    white-space:nowrap;
+}
+
+a {
+  color: #008cba;
+  text-decoration: none;
+  line-height: inherit;
+}
+/* line 292, ../bower_components/foundation/scss/foundation/components/_type.scss */
+a:hover, a:focus {
+  color: #0078a0;
+}
+
+
+a.expandAll {
+    color:#ccc;
+    cursor:pointer;
+    background:#000;
+    
+    font-size:12px;
+    padding:3px 5px;
+}
+
+    a.expandAll:hover {
+        color:#7DBADF;
+        cursor:pointer;
+    }
+
+div.timelineMajor {
+    clear:left;
+    float:left;
+    margin:0 0 12px;
+    
+}
+
+    .timelineMajor h2 span {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  /*     @else                            { font-size: $padding - rem-calc(2); } */
+  background-color: #008cba;
+  border-color: #007095;
+  color: white;
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  /*     @else                            { font-size: $padding - rem-calc(2); } */
+}
+
+
+dl.timelineMinor {
+    clear:left;
+    float:left;
+    margin:0 12px 0 0;
+    padding:4px 4px 4px 0;
+    
+}

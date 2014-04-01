@@ -8,22 +8,32 @@
   COLOR THEME
   ========================================================================== */
 /* line 1, ../scss/Navigation.scss */
-body {
+html {
   height: 100%;
 }
 
 /* line 4, ../scss/Navigation.scss */
-.body-of-content {
-  min-height: 500px;
+body {
+  height: 100%;
 }
 
 /* line 7, ../scss/Navigation.scss */
+.body-of-content {
+  height: 100%;
+}
+
+/* line 10, ../scss/Navigation.scss */
+.off-canvas-wrap, .inner-wrap {
+  height: 100%;
+}
+
+/* line 13, ../scss/Navigation.scss */
 .nav-expansion-content {
   margin-left: 2em;
   display: none;
 }
 
-/* line 11, ../scss/Navigation.scss */
+/* line 17, ../scss/Navigation.scss */
 .nav-expansion-title {
   padding: 0.66667rem;
   color: rgba(255, 255, 255, 0.7);
@@ -31,7 +41,7 @@ body {
   transition: background 300ms ease;
 }
 
-/* line 19, ../scss/Navigation.scss */
+/* line 25, ../scss/Navigation.scss */
 .pre-expansion:after {
   content: "+";
   float: right;
@@ -39,7 +49,7 @@ body {
   margin-top: -.3em;
 }
 
-/* line 26, ../scss/Navigation.scss */
+/* line 32, ../scss/Navigation.scss */
 .post-expansion:after {
   content: "-";
   float: right;
@@ -47,7 +57,12 @@ body {
   margin-top: -.3em;
 }
 
-/* line 35, ../scss/Navigation.scss */
+/* line 39, ../scss/Navigation.scss */
+.page {
+  height: 100%;
+}
+
+/* line 43, ../scss/Navigation.scss */
 .nav-expansion-title:hover {
   cursor: pointer;
   background: #242424;
@@ -101,7 +116,7 @@ body {
   background-color: #C7C7C7;
 }
 
-/* line 75, ../scss/main.scss */
+/* line 79, ../scss/main.scss */
 html,
 button,
 input,
@@ -157,7 +172,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 127, ../scss/main.scss */
+/* line 130, ../scss/main.scss */
 audio,
 canvas,
 img,
@@ -248,7 +263,7 @@ textarea {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 235, ../scss/main.scss */
+/* line 236, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -278,7 +293,7 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 265, ../scss/main.scss */
+/* line 266, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -326,7 +341,7 @@ textarea {
     text-shadow: none !important;
   }
 
-  /* line 314, ../scss/main.scss */
+  /* line 315, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
@@ -345,14 +360,14 @@ textarea {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 331, ../scss/main.scss */
+  /* line 333, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 337, ../scss/main.scss */
+  /* line 338, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
@@ -365,7 +380,7 @@ textarea {
     /* h5bp.com/t */
   }
 
-  /* line 347, ../scss/main.scss */
+  /* line 348, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
@@ -378,8 +393,9 @@ textarea {
 
   @page {
     margin: 0.5cm;
-  }
-  /* line 360, ../scss/main.scss */
+}
+
+  /* line 362, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -387,7 +403,7 @@ textarea {
     widows: 3;
   }
 
-  /* line 367, ../scss/main.scss */
+  /* line 368, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;

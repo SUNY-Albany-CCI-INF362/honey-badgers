@@ -1,23 +1,25 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stage7&8</title>
+    <title>Foundation</title>
     <link rel="stylesheet" href="css/app.css" />
-	  <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
-    <body>
-    <div class="off-canvas-wrap">
+  <body>
+  <div class="page">
+ <div class="off-canvas-wrap">
   <div class="inner-wrap">
     <nav class="tab-bar" data-topbar>
       <section class="left-small">
-        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+<<<<<<< HEAD
+        <a class="left-off-canvas-toggle menu-icon" id="numero3" ><span></span></a>
+=======
+        <a class="left-off-canvas-toggle menu-icon" id="numero3"><span></span></a>
+>>>>>>> footer-update
       </section>
 
       <section class="middle tab-bar-section">
@@ -28,20 +30,22 @@
     <aside class="left-off-canvas-menu">
       <ul class="off-canvas-list">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">My Rights</a></li>
-                <li><a href="Timeline.html">What Stage am I</a></li>
-                <li><a href="Stage1.html">Stage 1</a></li>
-                <li><a href="Stage2.html">Stage 2</a></li>
-                <li><a href="Stage3.html">Stage 3</a></li>
-                <li><a href="Stage4.html">Stage 4</a></li>
-                <li><a href="Stage5.html">Stage 5</a></li>
-                <li><a href="Stage6new.html">Stage 6</a></li>
-                            <li><a href="SettlementConference.html">Settlement Conference</a></li>
-                             <li><a href="preparing-for-settlement-steps1-2.html">Settlement Conference steps 1-2
-                             </a></li>
-                             <li><a href="preparing-for-settlement-step3.html">Settlement Conference step 3</a></li>
-                        <li><a href="Stage7.html">Stage 7</a></li>
-                         
+                <li><a href="Timeline.html">What Stage am I</a>                </li>
+                <li class="nav-expansion-title pre-expansion">Stages</li>
+                  <div class="nav-expansion-content">
+                    <li><a href="Stage1.html">Stage 1</a></li>
+                    <li><a href="Stage2.html">Stage 2</a></li>
+                    <li><a href="Stage3.html">Stage 3</a></li>
+                    <li><a href="Stage4.html">Stage 4</a></li>
+                    <li><a href="Stage5.html">Stage 5</a></li>
+                    <li><a href="Stage6.html">Stage 6</a></li>
+                        <li><a href="SettlementConference.html">Settlement Conference</a></li>
+                        <li><a href="preparing-for-settlement-steps1-2.html">Settlement Conference steps 1-2
+                        </a></li>
+                        <li><a href="preparing-for-settlement-step3.html">Settlement Conference step 3</a></li>
+                        <li><a href="Stage7.html">Stage 7&8</a></li>
+                        
+                  </div>
 
                 <li><a href="$Forms.html">Forms Guide</a>
                       <li><a href="$appearance.html">Notice of Appearance</a></li>
@@ -52,7 +56,6 @@
                      <li><a href="terms.html">Glossary</a></li>
                   </ul>
     </aside>
-
 
     <section class="body-of-content  main-section">
         <div class="row">
@@ -74,7 +77,7 @@
 </div>
 </div>
 </dd>
-
+<br class="clear">
 
 	
     
@@ -91,7 +94,7 @@
 		</div>
 		</div>
 		</dd>
-        
+     <br class="clear" >  
         
     
 			
@@ -135,17 +138,69 @@
 
 	</div>
 </div>
-		
+</div>
 		
 	
 		</section>
 		</div>
     </div>
 		
-       <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-	 <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+    <div id="share">
+  <ul class="show">
+          <li><a class="th" href="#"><img src="img/foundation-icons/svgs/fi-social-facebook.svg" alt="Share to Facebook"></a></li>
+          <li><a class="th" href="#"><img src="img/foundation-icons/svgs/fi-social-twitter.svg" alt="Share to Twitter"></a></li>
+          <li><a class="th" href="#"><img src="img/foundation-icons/svgs/fi-social-linkedin.svg" alt="Share to LinkedIN"></a></li>
+          <li><a class="th" href="#"><img src="img/foundation-icons/svgs/fi-page-export-doc.svg" alt="Send page as Document"></a></li>
+  </ul>
+</div>
+
+<div id="footer">
+  <ul class="button-group">
+   <li><a id="left" href="#" class="button expand">Share</a></li>
+   <li><a id="right" href="#" class="button expand">Help</a></li>
+  </ul>
+</div>
+
+<ol class="joyride-list" data-joyride>
+  <li data-text="Next">
+    <p>Hello and welcome to the Empire Justice Center Mobile App! Follow the following directions to get familiar with how to navigate this site!</p>
+  </li>
+  <li data-text="Next" data-options="tip_animation:fade">
+    <p>
+      You can navigate through a pages content by dragging your finger up and down! 
+    </p>
+  </li>
+  <li data-id="numero2" data-button="Next" data-options="tip_location:top;tip_animation:fade">
+    <p>
+      You can click any buttons to reveal helpful information about the foreclosure process!
+    </p>
+  </li>
+  <li data-id="numero3" data-button="Next" data-options="tip_location:bottom;tip_animation:fade">
+    <p>
+      Click the menu button to navigate to the resources that you need!
+    </p>
+  </li>
+  <li data-button="Next" data-options="tip_location:top;tip_animation:fade">
+    <p>
+      You can click the "Share" button to share a certain page with those who need to see it on Facebook, Twitter, LinkdIN, or Email! 
+    </p>
+  </li>
+  <li data-button="End" data-options="tip_animation:fade;">
+    <p>
+      You can click the "Help" button to view one of these nifty walkthroughs for each page as many times as youd like!
+    </p>
+  </li>
+</ol>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/foundation/foundation.joyride.js"></script>
+  <script src="js/vendor/jquery.cookie.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/foundation.js"></script>
+  <script src="js/foundation.dropdown.js"></script>
     </body>
 </html>

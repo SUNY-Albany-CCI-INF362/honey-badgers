@@ -11,15 +11,29 @@ $(document).ready(function() {
     }
  );
 });
-$(document).foundation('joyride','start');
-    $( "#right" ).click(function() {
-    $(document).foundation('joyride', 'start');
+
+if($("body").hasClass("joyride-auto")){
+    console.log($.cookie("joyride_status"));
+    console.log("has class");
+    
+    if ($.cookie("joyride_status")) {
+        console.log("Cookie");
+    } else {
+        console.log("doesnt hit");
+        $(document).foundation('joyride','start');
+        $.cookie('joyride_status', 'the_value', { expires: 999, path: '/' });
+    }
+}
+
+
+$( "#right" ).click(function() {
+$(document).foundation('joyride', 'start');
       });
-    $(document).foundation({
+$(document).foundation({
       // specify the class used for active dropdowns
       active_class: 'open'
     });
-    $(window).bind("load", function () {
+$(window).bind("load", function () {
         var footer = $("#footer");
         var pos = footer.position();
         var height = $(window).height();

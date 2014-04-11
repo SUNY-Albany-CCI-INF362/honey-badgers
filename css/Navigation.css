@@ -54,6 +54,11 @@ body {
 }
 
 /* line 43, ../scss/Navigation.scss */
+.button-in-nav {
+  margin-right: .5em;
+}
+
+/* line 46, ../scss/Navigation.scss */
 .nav-expansion-title:hover {
   cursor: pointer;
   background: #242424;

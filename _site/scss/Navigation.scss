@@ -1,0 +1,48 @@
+html{
+height:100%;
+}
+body{
+height:100%;
+}
+.body-of-content{
+height:100%;
+}
+.off-canvas-wrap,.inner-wrap{
+    height:100%;   
+}
+.nav-expansion-content{
+margin-left:2em;
+display: none;
+}
+.nav-expansion-title{
+padding: 0.66667rem;
+color: rgba(255, 255, 255, 0.7);
+border-bottom: 1px solid #262626;
+transition: background 300ms ease;}
+
+.pre-expansion{}
+
+.pre-expansion:after{
+content: "+";
+float: right;
+font-size: 2em;
+margin-top: -.3em;
+
+}
+.post-expansion:after{
+content: "-";
+float: right;
+font-size: 2em;
+margin-top: -.3em;
+
+}
+.page{
+height:100%;
+}
+
+.button-in-nav{
+    margin-right:.5em;
+}
+.nav-expansion-title:hover{
+  cursor:pointer;
+  background: #242424;}

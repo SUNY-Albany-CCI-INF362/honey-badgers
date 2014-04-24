@@ -77,11 +77,37 @@ body {
    Base styles: opinionated defaults
    ========================================================================== */
 /* line 21, ../scss/main.scss */
+.footer-bottom p {
+  font-size: .75rem;
+  color: white;
+  margin: 0px;
+  width: 100%;
+}
+
+/* line 30, ../scss/main.scss */
+.footer-bottom {
+  background-color: #333333;
+  width: body;
+  position: bottom;
+  margin: 0;
+}
+
+/* line 39, ../scss/main.scss */
+.copyright {
+  padding-top: 3%;
+}
+
+/* line 46, ../scss/main.scss */
+.disclamer {
+  padding-bottom: 1%;
+}
+
+/* line 52, ../scss/main.scss */
 .button-group {
   padding-left: 0;
 }
 
-/* line 27, ../scss/main.scss */
+/* line 58, ../scss/main.scss */
 #share {
   z-index: 0;
   background: transparent;
@@ -94,19 +120,19 @@ body {
   list-style-type: none;
 }
 
-/* line 41, ../scss/main.scss */
+/* line 72, ../scss/main.scss */
 .show {
   background-color: white;
   list-style-type: none;
 }
 
-/* line 48, ../scss/main.scss */
+/* line 79, ../scss/main.scss */
 .show img {
   height: 2em;
   width: 2em;
 }
 
-/* line 56, ../scss/main.scss */
+/* line 87, ../scss/main.scss */
 #footer {
   position: fixed;
   bottom: 0;
@@ -115,13 +141,13 @@ body {
   /* choose any height */
 }
 
-/* line 68, ../scss/main.scss */
+/* line 99, ../scss/main.scss */
 #footer .button-group li {
   width: 50%;
   background-color: #C7C7C7;
 }
 
-/* line 75, ../scss/main.scss */
+/* line 110, ../scss/main.scss */
 html,
 button,
 input,
@@ -130,13 +156,13 @@ textarea {
   color: #222;
 }
 
-/* line 83, ../scss/main.scss */
+/* line 114, ../scss/main.scss */
 html {
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 87, ../scss/main.scss */
+/* line 118, ../scss/main.scss */
 body {
   background-color: #E3F3F5;
   margin: 0em;
@@ -148,13 +174,13 @@ body {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-/* line 99, ../scss/main.scss */
+/* line 130, ../scss/main.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 104, ../scss/main.scss */
+/* line 135, ../scss/main.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -163,7 +189,7 @@ body {
 /*
  * A better looking default horizontal rule
  */
-/* line 113, ../scss/main.scss */
+/* line 144, ../scss/main.scss */
 hr {
   display: block;
   height: 1px;
@@ -177,7 +203,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 127, ../scss/main.scss */
+/* line 161, ../scss/main.scss */
 audio,
 canvas,
 img,
@@ -188,7 +214,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-/* line 138, ../scss/main.scss */
+/* line 169, ../scss/main.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -198,7 +224,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 148, ../scss/main.scss */
+/* line 179, ../scss/main.scss */
 textarea {
   resize: vertical;
 }
@@ -206,7 +232,7 @@ textarea {
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
-/* line 156, ../scss/main.scss */
+/* line 187, ../scss/main.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -223,7 +249,7 @@ textarea {
 /*
  * Image replacement
  */
-/* line 191, ../scss/main.scss */
+/* line 222, ../scss/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -232,7 +258,7 @@ textarea {
   *text-indent: -9999px;
 }
 
-/* line 199, ../scss/main.scss */
+/* line 230, ../scss/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -243,7 +269,7 @@ textarea {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 210, ../scss/main.scss */
+/* line 241, ../scss/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -252,7 +278,7 @@ textarea {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 219, ../scss/main.scss */
+/* line 250, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -268,7 +294,7 @@ textarea {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 235, ../scss/main.scss */
+/* line 267, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -282,7 +308,7 @@ textarea {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 249, ../scss/main.scss */
+/* line 280, ../scss/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -298,7 +324,7 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 265, ../scss/main.scss */
+/* line 297, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -307,7 +333,7 @@ textarea {
   /* 2 */
 }
 
-/* line 271, ../scss/main.scss */
+/* line 302, ../scss/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -316,7 +342,7 @@ textarea {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 280, ../scss/main.scss */
+/* line 311, ../scss/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -337,7 +363,7 @@ textarea {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 307, ../scss/main.scss */
+  /* line 338, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -346,18 +372,18 @@ textarea {
     text-shadow: none !important;
   }
 
-  /* line 314, ../scss/main.scss */
+  /* line 346, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 319, ../scss/main.scss */
+  /* line 350, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 323, ../scss/main.scss */
+  /* line 354, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -365,41 +391,42 @@ textarea {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 331, ../scss/main.scss */
+  /* line 364, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 337, ../scss/main.scss */
+  /* line 369, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 343, ../scss/main.scss */
+  /* line 374, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 347, ../scss/main.scss */
+  /* line 379, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 352, ../scss/main.scss */
+  /* line 383, ../scss/main.scss */
   img {
     max-width: 100% !important;
   }
 
   @page {
     margin: 0.5cm;
-  }
-  /* line 360, ../scss/main.scss */
+}
+
+  /* line 393, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -407,7 +434,7 @@ textarea {
     widows: 3;
   }
 
-  /* line 367, ../scss/main.scss */
+  /* line 399, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;

@@ -33,7 +33,7 @@ $(document).foundation({
       // specify the class used for active dropdowns
       active_class: 'open'
     });
-$(window).bind("load", function () {
+/*$(window).bind("load", function () {
         var footer = $("#footer");
         var pos = footer.position();
         var height = $(window).height();
@@ -44,4 +44,4 @@ $(window).bind("load", function () {
                'margin-top': height + 'px'
             });
         }
-    });
+    });*/

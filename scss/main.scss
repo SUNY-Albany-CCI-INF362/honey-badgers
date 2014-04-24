@@ -18,6 +18,37 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+.footer-bottom p{
+
+    font-size:.75rem;
+    color: white;
+    margin:0px;
+    width:100%;
+
+}
+
+.footer-bottom{
+
+    background-color:#333333;
+    width:body;
+    position:bottom;
+    margin:0;
+
+}
+
+.copyright{
+
+    padding-top:3%;
+    
+
+}
+
+.disclamer{
+
+   padding-bottom:1%;
+
+}
+
 .button-group{
 
     padding-left:0;

@@ -304,7 +304,7 @@ documentation](https://dev.twitter.com/docs/cards).
 <meta name="twitter:url" content="http://www.example.com/path/to/page.html">
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="http://www.example.com/path/to/image.jpg">
+<meta name="twitter:image" content="http://www.example.com/path/to/image.png">
 ```
 
 

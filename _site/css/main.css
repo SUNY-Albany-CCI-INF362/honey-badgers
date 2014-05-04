@@ -260,7 +260,7 @@ body.home #main .home-intro h2 {
   padding: 2.25em 0;
 }
 
-/* line 167, ../scss/main.scss */
+/* line 165, ../scss/main.scss */
 html,
 button,
 input,
@@ -269,13 +269,13 @@ textarea {
   color: #222;
 }
 
-/* line 171, ../scss/main.scss */
+/* line 169, ../scss/main.scss */
 html {
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 175, ../scss/main.scss */
+/* line 173, ../scss/main.scss */
 body {
   background-color: #E3F3F5;
   margin: 0em;
@@ -287,13 +287,13 @@ body {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-/* line 187, ../scss/main.scss */
+/* line 185, ../scss/main.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 192, ../scss/main.scss */
+/* line 190, ../scss/main.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -302,7 +302,7 @@ body {
 /*
  * A better looking default horizontal rule
  */
-/* line 201, ../scss/main.scss */
+/* line 199, ../scss/main.scss */
 hr {
   display: block;
   height: 1px;
@@ -316,7 +316,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 218, ../scss/main.scss */
+/* line 216, ../scss/main.scss */
 audio,
 canvas,
 img,
@@ -327,7 +327,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-/* line 226, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -337,7 +337,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 236, ../scss/main.scss */
+/* line 234, ../scss/main.scss */
 textarea {
   resize: vertical;
 }
@@ -345,7 +345,7 @@ textarea {
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
-/* line 244, ../scss/main.scss */
+/* line 242, ../scss/main.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -362,7 +362,7 @@ textarea {
 /*
  * Image replacement
  */
-/* line 279, ../scss/main.scss */
+/* line 277, ../scss/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -371,7 +371,7 @@ textarea {
   *text-indent: -9999px;
 }
 
-/* line 287, ../scss/main.scss */
+/* line 285, ../scss/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -382,7 +382,7 @@ textarea {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 298, ../scss/main.scss */
+/* line 296, ../scss/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -391,7 +391,7 @@ textarea {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 307, ../scss/main.scss */
+/* line 305, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -407,7 +407,7 @@ textarea {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 324, ../scss/main.scss */
+/* line 322, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -421,7 +421,7 @@ textarea {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 337, ../scss/main.scss */
+/* line 335, ../scss/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -437,7 +437,7 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 354, ../scss/main.scss */
+/* line 352, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -446,7 +446,7 @@ textarea {
   /* 2 */
 }
 
-/* line 359, ../scss/main.scss */
+/* line 357, ../scss/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -455,7 +455,7 @@ textarea {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 368, ../scss/main.scss */
+/* line 366, ../scss/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -476,7 +476,7 @@ textarea {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 395, ../scss/main.scss */
+  /* line 393, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -485,18 +485,18 @@ textarea {
     text-shadow: none !important;
   }
 
-  /* line 403, ../scss/main.scss */
+  /* line 401, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 407, ../scss/main.scss */
+  /* line 405, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 411, ../scss/main.scss */
+  /* line 409, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -504,33 +504,33 @@ textarea {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 421, ../scss/main.scss */
+  /* line 419, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 426, ../scss/main.scss */
+  /* line 424, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 431, ../scss/main.scss */
+  /* line 429, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 436, ../scss/main.scss */
+  /* line 434, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 440, ../scss/main.scss */
+  /* line 438, ../scss/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -539,7 +539,7 @@ textarea {
     margin: 0.5cm;
 }
 
-  /* line 450, ../scss/main.scss */
+  /* line 448, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -547,7 +547,7 @@ textarea {
     widows: 3;
   }
 
-  /* line 456, ../scss/main.scss */
+  /* line 454, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;

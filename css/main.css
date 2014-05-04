@@ -1,0 +1,555 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+  COLOR THEME
+  ========================================================================== */
+/* line 1, ../scss/Navigation.scss */
+html {
+  height: 100%;
+}
+
+/* line 4, ../scss/Navigation.scss */
+body {
+  height: 100%;
+}
+
+/* line 7, ../scss/Navigation.scss */
+.body-of-content {
+  height: 100%;
+}
+
+/* line 10, ../scss/Navigation.scss */
+.off-canvas-wrap, .inner-wrap {
+  height: 100%;
+}
+
+/* line 13, ../scss/Navigation.scss */
+.nav-expansion-content {
+  margin-left: 2em;
+  display: none;
+}
+
+/* line 17, ../scss/Navigation.scss */
+.nav-expansion-title {
+  padding: 0.66667rem;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid #262626;
+  transition: background 300ms ease;
+}
+
+/* line 25, ../scss/Navigation.scss */
+.pre-expansion:after {
+  content: "+";
+  float: right;
+  font-size: 2em;
+  margin-top: -.3em;
+}
+
+/* line 32, ../scss/Navigation.scss */
+.post-expansion:after {
+  content: "-";
+  float: right;
+  font-size: 2em;
+  margin-top: -.3em;
+}
+
+/* line 39, ../scss/Navigation.scss */
+.page {
+  height: 100%;
+}
+
+/* line 43, ../scss/Navigation.scss */
+.button-in-nav {
+  margin-right: .5em;
+}
+
+/* line 46, ../scss/Navigation.scss */
+.nav-expansion-title:hover {
+  cursor: pointer;
+  background: #242424;
+}
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 21, ../scss/main.scss */
+#main .content-wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 72em;
+  *zoom: 1;
+  padding-bottom: 2.5em;
+}
+
+/* line 31, ../scss/main.scss */
+#main .content-wrapper:before, #main .content-wrapper:after {
+  content: " ";
+  display: table;
+}
+
+/* line 35, ../scss/main.scss */
+#main .content-wrapper:after {
+  clear: both;
+}
+
+/* line 38, ../scss/main.scss */
+#main .content-wrapper > .content {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+/* line 45, ../scss/main.scss */
+#main .content-wrapper > .sidebar {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+/* line 52, ../scss/main.scss */
+#main .content-wrapper.full > .content {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+/* line 59, ../scss/main.scss */
+#main .content-wrapper.full > .sidebar {
+  display: none;
+}
+
+/* line 63, ../scss/main.scss */
+#main .content-wrapper.right-sidebar > .content {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+/* line 70, ../scss/main.scss */
+#main .content-wrapper.right-sidebar > .sidebar {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+@media only screen and (min-width: 48em) {
+  /* line 78, ../scss/main.scss */
+  #main .content-wrapper > .content {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 75%;
+    float: left;
+  }
+
+  /* line 85, ../scss/main.scss */
+  #main .content-wrapper > .sidebar {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 25%;
+    float: left;
+    padding-top: 1.5em;
+  }
+
+  /* line 92, ../scss/main.scss */
+  #main .content-wrapper.full > .content {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 100%;
+    float: left;
+  }
+
+  /* line 99, ../scss/main.scss */
+  #main .content-wrapper.full > .sidebar {
+    display: none;
+  }
+
+  /* line 102, ../scss/main.scss */
+  #main .content-wrapper.right-sidebar > .content {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 75%;
+    float: left;
+  }
+
+  /* line 109, ../scss/main.scss */
+  #main .content-wrapper.right-sidebar > .sidebar {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 25%;
+    float: left;
+  }
+}
+/* line 118, ../scss/main.scss */
+body.home #main > .content {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+/* line 125, ../scss/main.scss */
+body.home #main > .sidebar {
+  display: none;
+}
+
+/* line 129, ../scss/main.scss */
+body.home #main .home-intro ul.side-nav {
+  padding-top: 0;
+}
+
+/* line 132, ../scss/main.scss */
+body.home #main .home-intro h2 {
+  margin-bottom: 0.125em;
+}
+
+/* line 135, ../scss/main.scss */
+.connect-bar {
+  background: #333;
+  width: 100%;
+  color: #cccccc;
+}
+
+/* line 140, ../scss/main.scss */
+.connect-bar h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+/* line 148, ../scss/main.scss */
+.connect-bar a {
+  font-size: 24px;
+  margin: 0 4px;
+}
+
+/* line 152, ../scss/main.scss */
+.connect-bar h3, .connect-bar a {
+  color: #aaaaaa;
+}
+
+/* line 155, ../scss/main.scss */
+.footer-info {
+  background: #ccc;
+  width: 100%;
+  padding: 2.25em 0;
+}
+
+/* line 165, ../scss/main.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 169, ../scss/main.scss */
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 173, ../scss/main.scss */
+body {
+  background-color: #E3F3F5;
+  margin: 0em;
+  padding: 0em;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 185, ../scss/main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 190, ../scss/main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 199, ../scss/main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+/* line 216, ../scss/main.scss */
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 224, ../scss/main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 234, ../scss/main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+/* line 242, ../scss/main.scss */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 277, ../scss/main.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 285, ../scss/main.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 296, ../scss/main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 305, ../scss/main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 322, ../scss/main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 335, ../scss/main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 352, ../scss/main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 357, ../scss/main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 366, ../scss/main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 393, ../scss/main.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 401, ../scss/main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 405, ../scss/main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 409, ../scss/main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 419, ../scss/main.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 424, ../scss/main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 429, ../scss/main.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 434, ../scss/main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 438, ../scss/main.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 448, ../scss/main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 454, ../scss/main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

@@ -77,32 +77,192 @@ body {
    Base styles: opinionated defaults
    ========================================================================== */
 /* line 21, ../scss/main.scss */
-.footer-bottom p {
-  font-size: .75rem;
-  color: white;
-  margin: 0px;
+#main .content-wrapper {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 72em;
+  *zoom: 1;
+  padding-bottom: 2.5em;
 }
 
-/* line 30, ../scss/main.scss */
-.footer-bottom {
-  background-color: #333333;
-  width: body;
-  position: bottom;
-  margin: 0;
+/* line 31, ../scss/main.scss */
+#main .content-wrapper:before, #main .content-wrapper:after {
+  content: " ";
+  display: table;
 }
 
-/* line 39, ../scss/main.scss */
-.copyright {
-  padding-top: 3%;
+/* line 35, ../scss/main.scss */
+#main .content-wrapper:after {
+  clear: both;
 }
 
-/* line 46, ../scss/main.scss */
-.disclamer {
-  padding-bottom: 1%;
+/* line 38, ../scss/main.scss */
+#main .content-wrapper > .content {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
 }
 
-/* line 58, ../scss/main.scss */
+/* line 45, ../scss/main.scss */
+#main .content-wrapper > .sidebar {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+
+/* line 52, ../scss/main.scss */
+#main .content-wrapper.full > .content {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+/* line 59, ../scss/main.scss */
+#main .content-wrapper.full > .sidebar {
+  display: none;
+}
+
+/* line 63, ../scss/main.scss */
+#main .content-wrapper.right-sidebar > .content {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+/* line 70, ../scss/main.scss */
+#main .content-wrapper.right-sidebar > .sidebar {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+@media only screen and (min-width: 48em) {
+  /* line 78, ../scss/main.scss */
+  #main .content-wrapper > .content {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 75%;
+    float: left;
+  }
+
+  /* line 85, ../scss/main.scss */
+  #main .content-wrapper > .sidebar {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 25%;
+    float: left;
+    padding-top: 1.5em;
+  }
+
+  /* line 92, ../scss/main.scss */
+  #main .content-wrapper.full > .content {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 100%;
+    float: left;
+  }
+
+  /* line 99, ../scss/main.scss */
+  #main .content-wrapper.full > .sidebar {
+    display: none;
+  }
+
+  /* line 102, ../scss/main.scss */
+  #main .content-wrapper.right-sidebar > .content {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 75%;
+    float: left;
+  }
+
+  /* line 109, ../scss/main.scss */
+  #main .content-wrapper.right-sidebar > .sidebar {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 25%;
+    float: left;
+  }
+}
+/* line 118, ../scss/main.scss */
+body.home #main > .content {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+}
+
+/* line 125, ../scss/main.scss */
+body.home #main > .sidebar {
+  display: none;
+}
+
+/* line 129, ../scss/main.scss */
+body.home #main .home-intro ul.side-nav {
+  padding-top: 0;
+}
+
+/* line 132, ../scss/main.scss */
+body.home #main .home-intro h2 {
+  margin-bottom: 0.125em;
+}
+
+/* line 135, ../scss/main.scss */
+.connect-bar {
+  background: #333;
+  width: 100%;
+  color: #cccccc;
+}
+
+/* line 140, ../scss/main.scss */
+.connect-bar h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+/* line 148, ../scss/main.scss */
+.connect-bar a {
+  font-size: 24px;
+  margin: 0 4px;
+}
+
+/* line 152, ../scss/main.scss */
+.connect-bar h3, .connect-bar a {
+  color: #aaaaaa;
+}
+
+/* line 155, ../scss/main.scss */
+.footer-info {
+  background: #ccc;
+  width: 100%;
+  padding: 0 0;
+}
+
+/* line 166, ../scss/main.scss */
+
 html,
 button,
 input,
@@ -111,13 +271,17 @@ textarea {
   color: #222;
 }
 
-/* line 62, ../scss/main.scss */
+
+/* line 170, ../scss/main.scss */
+
 html {
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 66, ../scss/main.scss */
+
+/* line 174, ../scss/main.scss */
+
 body {
   background-color: #E3F3F5;
   margin: 0em;
@@ -129,13 +293,17 @@ body {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
+
 /* line 78, ../scss/main.scss */
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
+
 /* line 83, ../scss/main.scss */
+
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -144,7 +312,9 @@ body {
 /*
  * A better looking default horizontal rule
  */
+
 /* line 92, ../scss/main.scss */
+
 hr {
   display: block;
   height: 1px;
@@ -158,7 +328,9 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
+
 /* line 109, ../scss/main.scss */
+
 audio,
 canvas,
 img,
@@ -169,7 +341,9 @@ video {
 /*
  * Remove default fieldset styles.
  */
+
 /* line 117, ../scss/main.scss */
+
 fieldset {
   border: 0;
   margin: 0;
@@ -179,7 +353,9 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
+
 /* line 127, ../scss/main.scss */
+
 textarea {
   resize: vertical;
 }
@@ -187,7 +363,9 @@ textarea {
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
+D
 /* line 135, ../scss/main.scss */
+r
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -204,7 +382,9 @@ textarea {
 /*
  * Image replacement
  */
+
 /* line 170, ../scss/main.scss */
+
 .ir {
   background-color: transparent;
   border: 0;
@@ -213,7 +393,9 @@ textarea {
   *text-indent: -9999px;
 }
 
+
 /* line 178, ../scss/main.scss */
+
 .ir:before {
   content: "";
   display: block;
@@ -225,6 +407,7 @@ textarea {
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
 /* line 189, ../scss/main.scss */
+
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -233,7 +416,9 @@ textarea {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
+
 /* line 198, ../scss/main.scss */
+
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -249,7 +434,9 @@ textarea {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
+
 /* line 215, ../scss/main.scss */
+
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -263,7 +450,7 @@ textarea {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 228, ../scss/main.scss */
+
 .invisible {
   visibility: hidden;
 }
@@ -279,7 +466,9 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+
 /* line 245, ../scss/main.scss */
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -288,7 +477,9 @@ textarea {
   /* 2 */
 }
 
+
 /* line 250, ../scss/main.scss */
+
 .clearfix:after {
   clear: both;
 }
@@ -297,7 +488,9 @@ textarea {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
+
 /* line 259, ../scss/main.scss */
+
 .clearfix {
   *zoom: 1;
 }
@@ -318,7 +511,9 @@ textarea {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
+
   /* line 286, ../scss/main.scss */
+r
   * {
     background: transparent !important;
     color: #000 !important;
@@ -328,17 +523,22 @@ textarea {
   }
 
   /* line 294, ../scss/main.scss */
+
   a,
   a:visited {
     text-decoration: underline;
   }
 
+
   /* line 298, ../scss/main.scss */
+
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
+
   /* line 302, ../scss/main.scss */
+
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -346,33 +546,44 @@ textarea {
   /*
    * Don't show links for images, or javascript/internal links
    */
+
   /* line 312, ../scss/main.scss */
+
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
+
   /* line 317, ../scss/main.scss */
+
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
+
   /* line 322, ../scss/main.scss */
+
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
+
   /* line 327, ../scss/main.scss */
+
   tr,
   img {
     page-break-inside: avoid;
   }
 
+
   /* line 331, ../scss/main.scss */
+
   img {
     max-width: 100% !important;
   }
@@ -381,7 +592,9 @@ textarea {
     margin: 0.5cm;
 }
 
+
   /* line 341, ../scss/main.scss */
+
   p,
   h2,
   h3 {
@@ -389,7 +602,9 @@ textarea {
     widows: 3;
   }
 
+
   /* line 347, ../scss/main.scss */
+
   h2,
   h3 {
     page-break-after: avoid;
